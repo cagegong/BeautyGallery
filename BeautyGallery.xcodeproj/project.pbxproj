@@ -13,6 +13,8 @@
 		432305AA1ACD834900CB397F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 432305A91ACD834900CB397F /* Images.xcassets */; };
 		432305AD1ACD834900CB397F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 432305AB1ACD834900CB397F /* LaunchScreen.xib */; };
 		432305B91ACD834900CB397F /* BeautyGalleryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432305B81ACD834900CB397F /* BeautyGalleryTests.swift */; };
+		439607D51ACE24BC00595145 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439607D41ACE24BC00595145 /* ViewControllerExtension.swift */; };
+		439607D71ACE27F100595145 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439607D61ACE27F100595145 /* GalleryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		432305B21ACD834900CB397F /* BeautyGalleryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeautyGalleryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		432305B71ACD834900CB397F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		432305B81ACD834900CB397F /* BeautyGalleryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautyGalleryTests.swift; sourceTree = "<group>"; };
+		439607D41ACE24BC00595145 /* ViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
+		439607D61ACE27F100595145 /* GalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +84,11 @@
 				432305A21ACD834900CB397F /* AppDelegate.swift */,
 				432305A41ACD834900CB397F /* ViewController.swift */,
 				432305A61ACD834900CB397F /* Main.storyboard */,
+				439607D61ACE27F100595145 /* GalleryViewController.swift */,
 				432305A91ACD834900CB397F /* Images.xcassets */,
 				432305AB1ACD834900CB397F /* LaunchScreen.xib */,
 				432305A01ACD834900CB397F /* Supporting Files */,
+				439607D41ACE24BC00595145 /* ViewControllerExtension.swift */,
 			);
 			path = BeautyGallery;
 			sourceTree = "<group>";
@@ -213,7 +219,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				432305A51ACD834900CB397F /* ViewController.swift in Sources */,
+				439607D71ACE27F100595145 /* GalleryViewController.swift in Sources */,
 				432305A31ACD834900CB397F /* AppDelegate.swift in Sources */,
+				439607D51ACE24BC00595145 /* ViewControllerExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +413,7 @@
 				432305BE1ACD834900CB397F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		432305BF1ACD834900CB397F /* Build configuration list for PBXNativeTarget "BeautyGalleryTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +422,7 @@
 				432305C11ACD834900CB397F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
