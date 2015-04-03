@@ -15,6 +15,7 @@
 		432305B91ACD834900CB397F /* BeautyGalleryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432305B81ACD834900CB397F /* BeautyGalleryTests.swift */; };
 		439607D51ACE24BC00595145 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439607D41ACE24BC00595145 /* ViewControllerExtension.swift */; };
 		439607D71ACE27F100595145 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439607D61ACE27F100595145 /* GalleryViewController.swift */; };
+		439607D91ACE67F400595145 /* KoreanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439607D81ACE67F400595145 /* KoreanViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		432305B81ACD834900CB397F /* BeautyGalleryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautyGalleryTests.swift; sourceTree = "<group>"; };
 		439607D41ACE24BC00595145 /* ViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
 		439607D61ACE27F100595145 /* GalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		439607D81ACE67F400595145 /* KoreanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KoreanViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				432305A41ACD834900CB397F /* ViewController.swift */,
 				432305A61ACD834900CB397F /* Main.storyboard */,
 				439607D61ACE27F100595145 /* GalleryViewController.swift */,
+				439607D81ACE67F400595145 /* KoreanViewController.swift */,
 				432305A91ACD834900CB397F /* Images.xcassets */,
 				432305AB1ACD834900CB397F /* LaunchScreen.xib */,
 				432305A01ACD834900CB397F /* Supporting Files */,
@@ -219,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				432305A51ACD834900CB397F /* ViewController.swift in Sources */,
+				439607D91ACE67F400595145 /* KoreanViewController.swift in Sources */,
 				439607D71ACE27F100595145 /* GalleryViewController.swift in Sources */,
 				432305A31ACD834900CB397F /* AppDelegate.swift in Sources */,
 				439607D51ACE24BC00595145 /* ViewControllerExtension.swift in Sources */,
